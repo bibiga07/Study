@@ -45,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D2F21302B5E86BF0080B52F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4DECECDB2B5CE365004FCCC8 /* CarrotMarketApp.swift */,
+				4DB1CB262B5CE7DF0052895F /* TabbarView.swift */,
+				4DECECE92B5CE391004FCCC8 /* Launch Screen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		4DB1CB282B5CEC9F0052895F /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,10 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				4D5D18142B5CE4A000768DA4 /* Info.plist */,
+				4D2F21302B5E86BF0080B52F /* App */,
 				4DB1CB282B5CEC9F0052895F /* View */,
-				4DECECDB2B5CE365004FCCC8 /* CarrotMarketApp.swift */,
-				4DB1CB262B5CE7DF0052895F /* TabbarView.swift */,
-				4DECECE92B5CE391004FCCC8 /* Launch Screen.storyboard */,
 				4DECECDF2B5CE366004FCCC8 /* Assets.xcassets */,
 				4DECECE12B5CE366004FCCC8 /* Preview Content */,
 			);
