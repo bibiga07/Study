@@ -11,7 +11,6 @@ class SearchViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-    // Data, Presentaion, Layout
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self

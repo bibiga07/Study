@@ -14,6 +14,8 @@
 		4D2F216C2B610EBE0080B52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2F216A2B610EBE0080B52F /* LaunchScreen.storyboard */; };
 		4D2F21742B610F0B0080B52F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F21732B610F0B0080B52F /* SearchViewController.swift */; };
 		4D2F21762B61105D0080B52F /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2F21752B61105D0080B52F /* ResultCell.swift */; };
+		4DB66CB92B629AF100F7147F /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB66CB82B629AF100F7147F /* NewsFeedViewController.swift */; };
+		4DB66CBB2B629B3900F7147F /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB66CBA2B629B3900F7147F /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4D2F216D2B610EBE0080B52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D2F21732B610F0B0080B52F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4D2F21752B61105D0080B52F /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
+		4DB66CB82B629AF100F7147F /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		4DB66CBA2B629B3900F7147F /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				4D2F21612B610EBD0080B52F /* SceneDelegate.swift */,
 				4D2F21732B610F0B0080B52F /* SearchViewController.swift */,
 				4D2F21752B61105D0080B52F /* ResultCell.swift */,
+				4DB66CB82B629AF100F7147F /* NewsFeedViewController.swift */,
+				4DB66CBA2B629B3900F7147F /* FeedCell.swift */,
 				4D2F21652B610EBD0080B52F /* Main.storyboard */,
 				4D2F21682B610EBE0080B52F /* Assets.xcassets */,
 				4D2F216A2B610EBE0080B52F /* LaunchScreen.storyboard */,
@@ -145,6 +151,8 @@
 				4D2F21602B610EBD0080B52F /* AppDelegate.swift in Sources */,
 				4D2F21762B61105D0080B52F /* ResultCell.swift in Sources */,
 				4D2F21622B610EBD0080B52F /* SceneDelegate.swift in Sources */,
+				4DB66CB92B629AF100F7147F /* NewsFeedViewController.swift in Sources */,
+				4DB66CBB2B629B3900F7147F /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
