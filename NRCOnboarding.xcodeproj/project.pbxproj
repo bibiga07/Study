@@ -14,6 +14,7 @@
 		4DB66CD52B62B50400F7147F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB66CD32B62B50400F7147F /* LaunchScreen.storyboard */; };
 		4DB66CDD2B62B5AB00F7147F /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB66CDC2B62B5AB00F7147F /* OnboardingViewController.swift */; };
 		4DB66CDF2B62B5C900F7147F /* OnboardingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB66CDE2B62B5C900F7147F /* OnboardingMessage.swift */; };
+		4DB66CE12B64ABBC00F7147F /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB66CE02B64ABBC00F7147F /* OnboardingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4DB66CD62B62B50400F7147F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DB66CDC2B62B5AB00F7147F /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		4DB66CDE2B62B5C900F7147F /* OnboardingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMessage.swift; sourceTree = "<group>"; };
+		4DB66CE02B64ABBC00F7147F /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				4DB66CCA2B62B50200F7147F /* SceneDelegate.swift */,
 				4DB66CDE2B62B5C900F7147F /* OnboardingMessage.swift */,
 				4DB66CDC2B62B5AB00F7147F /* OnboardingViewController.swift */,
+				4DB66CE02B64ABBC00F7147F /* OnboardingCell.swift */,
 				4DB66CCE2B62B50200F7147F /* Main.storyboard */,
 				4DB66CD12B62B50400F7147F /* Assets.xcassets */,
 				4DB66CD32B62B50400F7147F /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB66CC92B62B50200F7147F /* AppDelegate.swift in Sources */,
+				4DB66CE12B64ABBC00F7147F /* OnboardingCell.swift in Sources */,
 				4DB66CDD2B62B5AB00F7147F /* OnboardingViewController.swift in Sources */,
 				4DB66CDF2B62B5C900F7147F /* OnboardingMessage.swift in Sources */,
 				4DB66CCB2B62B50200F7147F /* SceneDelegate.swift in Sources */,
