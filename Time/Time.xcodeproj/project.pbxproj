@@ -7,35 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DB1CB232B5CE5CA0052895F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1CB222B5CE5CA0052895F /* HomeView.swift */; };
-		4DB1CB272B5CE7DF0052895F /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1CB262B5CE7DF0052895F /* TabbarView.swift */; };
-		4DB1CB2A2B5CECB80052895F /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1CB292B5CECB80052895F /* NewsView.swift */; };
-		4DB1CB2C2B5CECC80052895F /* MyAroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1CB2B2B5CECC80052895F /* MyAroundView.swift */; };
-		4DB1CB2E2B5CECD20052895F /* ChattingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1CB2D2B5CECD20052895F /* ChattingView.swift */; };
-		4DB1CB302B5CECDA0052895F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1CB2F2B5CECDA0052895F /* ProfileView.swift */; };
-		4DECECDC2B5CE365004FCCC8 /* CarrotMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DECECDB2B5CE365004FCCC8 /* CarrotMarketApp.swift */; };
-		4DECECE02B5CE366004FCCC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DECECDF2B5CE366004FCCC8 /* Assets.xcassets */; };
-		4DECECE32B5CE366004FCCC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DECECE22B5CE366004FCCC8 /* Preview Assets.xcassets */; };
-		4DECECEA2B5CE391004FCCC8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DECECE92B5CE391004FCCC8 /* Launch Screen.storyboard */; };
+		4D99D6C62B6B54BC00775020 /* TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D6C52B6B54BC00775020 /* TimeApp.swift */; };
+		4D99D6C82B6B54BC00775020 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D6C72B6B54BC00775020 /* ContentView.swift */; };
+		4D99D6CA2B6B54BD00775020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D6C92B6B54BD00775020 /* Assets.xcassets */; };
+		4D99D6CD2B6B54BD00775020 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D6CC2B6B54BD00775020 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D5D18142B5CE4A000768DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		4DB1CB222B5CE5CA0052895F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		4DB1CB262B5CE7DF0052895F /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
-		4DB1CB292B5CECB80052895F /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
-		4DB1CB2B2B5CECC80052895F /* MyAroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAroundView.swift; sourceTree = "<group>"; };
-		4DB1CB2D2B5CECD20052895F /* ChattingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingView.swift; sourceTree = "<group>"; };
-		4DB1CB2F2B5CECDA0052895F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		4DECECD82B5CE365004FCCC8 /* CarrotMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DECECDB2B5CE365004FCCC8 /* CarrotMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotMarketApp.swift; sourceTree = "<group>"; };
-		4DECECDF2B5CE366004FCCC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4DECECE22B5CE366004FCCC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4DECECE92B5CE391004FCCC8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4D99D6C22B6B54BC00775020 /* Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Time.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D99D6C52B6B54BC00775020 /* TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeApp.swift; sourceTree = "<group>"; };
+		4D99D6C72B6B54BC00775020 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D99D6C92B6B54BD00775020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D99D6CC2B6B54BD00775020 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DECECD52B5CE365004FCCC8 /* Frameworks */ = {
+		4D99D6BF2B6B54BC00775020 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,60 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D2F21302B5E86BF0080B52F /* App */ = {
+		4D99D6B92B6B54BC00775020 = {
 			isa = PBXGroup;
 			children = (
-				4DECECDB2B5CE365004FCCC8 /* CarrotMarketApp.swift */,
-				4DB1CB262B5CE7DF0052895F /* TabbarView.swift */,
-				4DECECE92B5CE391004FCCC8 /* Launch Screen.storyboard */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		4DB1CB282B5CEC9F0052895F /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4DB1CB222B5CE5CA0052895F /* HomeView.swift */,
-				4DB1CB292B5CECB80052895F /* NewsView.swift */,
-				4DB1CB2B2B5CECC80052895F /* MyAroundView.swift */,
-				4DB1CB2D2B5CECD20052895F /* ChattingView.swift */,
-				4DB1CB2F2B5CECDA0052895F /* ProfileView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		4DECECCF2B5CE365004FCCC8 = {
-			isa = PBXGroup;
-			children = (
-				4DECECDA2B5CE365004FCCC8 /* CarrotMarket */,
-				4DECECD92B5CE365004FCCC8 /* Products */,
+				4D99D6C42B6B54BC00775020 /* Time */,
+				4D99D6C32B6B54BC00775020 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4DECECD92B5CE365004FCCC8 /* Products */ = {
+		4D99D6C32B6B54BC00775020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DECECD82B5CE365004FCCC8 /* CarrotMarket.app */,
+				4D99D6C22B6B54BC00775020 /* Time.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DECECDA2B5CE365004FCCC8 /* CarrotMarket */ = {
+		4D99D6C42B6B54BC00775020 /* Time */ = {
 			isa = PBXGroup;
 			children = (
-				4D5D18142B5CE4A000768DA4 /* Info.plist */,
-				4D2F21302B5E86BF0080B52F /* App */,
-				4DB1CB282B5CEC9F0052895F /* View */,
-				4DECECDF2B5CE366004FCCC8 /* Assets.xcassets */,
-				4DECECE12B5CE366004FCCC8 /* Preview Content */,
+				4D99D6C52B6B54BC00775020 /* TimeApp.swift */,
+				4D99D6C72B6B54BC00775020 /* ContentView.swift */,
+				4D99D6C92B6B54BD00775020 /* Assets.xcassets */,
+				4D99D6CB2B6B54BD00775020 /* Preview Content */,
 			);
-			path = CarrotMarket;
+			path = Time;
 			sourceTree = "<group>";
 		};
-		4DECECE12B5CE366004FCCC8 /* Preview Content */ = {
+		4D99D6CB2B6B54BD00775020 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4DECECE22B5CE366004FCCC8 /* Preview Assets.xcassets */,
+				4D99D6CC2B6B54BD00775020 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -106,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DECECD72B5CE365004FCCC8 /* CarrotMarket */ = {
+		4D99D6C12B6B54BC00775020 /* Time */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DECECE62B5CE366004FCCC8 /* Build configuration list for PBXNativeTarget "CarrotMarket" */;
+			buildConfigurationList = 4D99D6D02B6B54BD00775020 /* Build configuration list for PBXNativeTarget "Time" */;
 			buildPhases = (
-				4DECECD42B5CE365004FCCC8 /* Sources */,
-				4DECECD52B5CE365004FCCC8 /* Frameworks */,
-				4DECECD62B5CE365004FCCC8 /* Resources */,
+				4D99D6BE2B6B54BC00775020 /* Sources */,
+				4D99D6BF2B6B54BC00775020 /* Frameworks */,
+				4D99D6C02B6B54BC00775020 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CarrotMarket;
-			productName = CarrotMarket;
-			productReference = 4DECECD82B5CE365004FCCC8 /* CarrotMarket.app */;
+			name = Time;
+			productName = Time;
+			productReference = 4D99D6C22B6B54BC00775020 /* Time.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4DECECD02B5CE365004FCCC8 /* Project object */ = {
+		4D99D6BA2B6B54BC00775020 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					4DECECD72B5CE365004FCCC8 = {
-						CreatedOnToolsVersion = 15.0.1;
+					4D99D6C12B6B54BC00775020 = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 4DECECD32B5CE365004FCCC8 /* Build configuration list for PBXProject "CarrotMarket" */;
+			buildConfigurationList = 4D99D6BD2B6B54BC00775020 /* Build configuration list for PBXProject "Time" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,48 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 4DECECCF2B5CE365004FCCC8;
-			productRefGroup = 4DECECD92B5CE365004FCCC8 /* Products */;
+			mainGroup = 4D99D6B92B6B54BC00775020;
+			productRefGroup = 4D99D6C32B6B54BC00775020 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DECECD72B5CE365004FCCC8 /* CarrotMarket */,
+				4D99D6C12B6B54BC00775020 /* Time */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4DECECD62B5CE365004FCCC8 /* Resources */ = {
+		4D99D6C02B6B54BC00775020 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DECECEA2B5CE391004FCCC8 /* Launch Screen.storyboard in Resources */,
-				4DECECE32B5CE366004FCCC8 /* Preview Assets.xcassets in Resources */,
-				4DECECE02B5CE366004FCCC8 /* Assets.xcassets in Resources */,
+				4D99D6CD2B6B54BD00775020 /* Preview Assets.xcassets in Resources */,
+				4D99D6CA2B6B54BD00775020 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DECECD42B5CE365004FCCC8 /* Sources */ = {
+		4D99D6BE2B6B54BC00775020 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB1CB272B5CE7DF0052895F /* TabbarView.swift in Sources */,
-				4DB1CB2A2B5CECB80052895F /* NewsView.swift in Sources */,
-				4DB1CB2E2B5CECD20052895F /* ChattingView.swift in Sources */,
-				4DB1CB232B5CE5CA0052895F /* HomeView.swift in Sources */,
-				4DECECDC2B5CE365004FCCC8 /* CarrotMarketApp.swift in Sources */,
-				4DB1CB302B5CECDA0052895F /* ProfileView.swift in Sources */,
-				4DB1CB2C2B5CECC80052895F /* MyAroundView.swift in Sources */,
+				4D99D6C82B6B54BC00775020 /* ContentView.swift in Sources */,
+				4D99D6C62B6B54BC00775020 /* TimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4DECECE42B5CE366004FCCC8 /* Debug */ = {
+		4D99D6CE2B6B54BD00775020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -250,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		4DECECE52B5CE366004FCCC8 /* Release */ = {
+		4D99D6CF2B6B54BD00775020 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -306,21 +264,19 @@
 			};
 			name = Release;
 		};
-		4DECECE72B5CE366004FCCC8 /* Debug */ = {
+		4D99D6D12B6B54BD00775020 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CarrotMarket/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Time/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CarrotMarket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bibiga.CarrotMarket;
+				PRODUCT_BUNDLE_IDENTIFIER = bibiga.Time;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,21 +292,19 @@
 			};
 			name = Debug;
 		};
-		4DECECE82B5CE366004FCCC8 /* Release */ = {
+		4D99D6D22B6B54BD00775020 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CarrotMarket/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Time/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CarrotMarket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bibiga.CarrotMarket;
+				PRODUCT_BUNDLE_IDENTIFIER = bibiga.Time;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -369,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DECECD32B5CE365004FCCC8 /* Build configuration list for PBXProject "CarrotMarket" */ = {
+		4D99D6BD2B6B54BC00775020 /* Build configuration list for PBXProject "Time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DECECE42B5CE366004FCCC8 /* Debug */,
-				4DECECE52B5CE366004FCCC8 /* Release */,
+				4D99D6CE2B6B54BD00775020 /* Debug */,
+				4D99D6CF2B6B54BD00775020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DECECE62B5CE366004FCCC8 /* Build configuration list for PBXNativeTarget "CarrotMarket" */ = {
+		4D99D6D02B6B54BD00775020 /* Build configuration list for PBXNativeTarget "Time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DECECE72B5CE366004FCCC8 /* Debug */,
-				4DECECE82B5CE366004FCCC8 /* Release */,
+				4D99D6D12B6B54BD00775020 /* Debug */,
+				4D99D6D22B6B54BD00775020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4DECECD02B5CE365004FCCC8 /* Project object */;
+	rootObject = 4D99D6BA2B6B54BC00775020 /* Project object */;
 }
