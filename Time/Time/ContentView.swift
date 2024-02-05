@@ -24,6 +24,12 @@ struct ContentView: View {
             let seconds = timeInSeconds % 60
             return String(format: "%02i:%02i:%02i", hours,minutes,seconds)
         }
+    func calcRemain() {
+            let calendar = Calendar.current
+            let targetTime : Date = calendar.date(byAdding: .second, value: 3800, to: date, wrappingComponents: false) ?? Date()
+            let remainSeconds = Int(targetTime.timeIntervalSince(date))
+            self.timeRemaining = remainSeconds
+        }
 }
 
 #Preview {
