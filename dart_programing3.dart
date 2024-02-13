@@ -20,4 +20,35 @@ void main() {
   } else {
     print("다 거짓");
   }
+
+  /// switch 문
+  /// Flutter 3.10 / Dart 3.0 버전 이상부터 변경 된 부분이 조금 있는 문법 중 하나.
+  /// 
+  /// switch (비교 대상) {
+  ///   case (조건 식) :
+  ///   case (조건 식2) :
+  ///   case (조건 식3) :
+  ///   default :
+  /// }
+  
+  int num = 5;
+
+  switch (num) {
+    case 1:
+      print("Switch $num");
+    case 2:
+      print("Switch $num");
+    case 3:
+      print("Switch $num");
+    case 4:
+      print("Switch $num");
+    case 5:
+      print("Switch $num");
+      print("Answer");
+    /// ONly Upper Dart 3.0
+    case > 100:
+      print("number가 100 초과이다.")
+    default:
+      print("Not 1 ~ 5");
+  }
 }
