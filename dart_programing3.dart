@@ -12,14 +12,14 @@ void main() {
   ///   조건식이 거짓일 경우 실행 할 코드
   /// }
   
-  int standard = 3;
-  if (standard < 0) {
-    print("X");
-  } else if (standard == 3) {
-    print("O");
-  } else {
-    print("다 거짓");
-  }
+  // int standard = 3;
+  // if (standard < 0) {
+  //   print("X");
+  // } else if (standard == 3) {
+  //   print("O");
+  // } else {
+  //   print("다 거짓");
+  // }
 
   /// switch 문
   /// Flutter 3.10 / Dart 3.0 버전 이상부터 변경 된 부분이 조금 있는 문법 중 하나.
@@ -31,26 +31,26 @@ void main() {
   ///   default :
   /// }
   
-  int num = 5;
+  // int num = 5;
 
-  switch (num) {
-    case 1:
-      print("Switch $num");
-    case 2:
-      print("Switch $num");
-    case 3:
-      print("Switch $num");
-    case 4:
-      print("Switch $num");
-    case 5:
-      print("Switch $num");
-      print("Answer");
-    /// ONly Upper Dart 3.0
-    case > 100:
-      print("number가 100 초과이다.");
-    default:
-      print("Not 1 ~ 5");
-  }
+  // switch (num) {
+  //   case 1:
+  //     print("Switch $num");
+  //   case 2:
+  //     print("Switch $num");
+  //   case 3:
+  //     print("Switch $num");
+  //   case 4:
+  //     print("Switch $num");
+  //   case 5:
+  //     print("Switch $num");
+  //     print("Answer");
+  //   /// ONly Upper Dart 3.0
+  //   case > 100:
+  //     print("number가 100 초과이다.");
+  //   default:
+  //     print("Not 1 ~ 5");
+  // }
 
   /// 반복문 : 특정한 코드의 반복을 컴퓨터에게 지시 할 때 사용하는 프로그래밍 문법
   /// for / for in / while / do - while
@@ -76,16 +76,16 @@ void main() {
   ///   조건식이 참일 경우 실행 될 반복문
   /// }
   
-  bool isRunning = true;
-  int count = 0;
+  // bool isRunning = true;
+  // int count = 0;
 
-  while (true) {
-    if (count >= 5) {
-      break;
-    }
-    count++;
-    print("While is Running");
-  }
+  // while (true) {
+  //   if (count >= 5) {
+  //     break;
+  //   }
+  //   count++;
+  //   print("While is Running");
+  // }
 
   /// do - while
   /// do {
