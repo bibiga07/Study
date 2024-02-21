@@ -9,15 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            Color.gray.opacity(0.2)
-            ScrollView {
-                goTossbank()
-                moneyList()
+        TabView {
+            ZStack {
+                Color.gray.opacity(0.2)
+                ScrollView {
+                    goTossbank()
+                    moneyList()
+                }
+                .padding(.top, 70)
             }
-            .padding(.top, 70)
+            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            .tabItem {
+                VStack {
+                    
+                }
+            }
         }
-        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
 
