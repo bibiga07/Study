@@ -21,7 +21,8 @@ struct ContentView: View {
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             .tabItem {
                 VStack {
-                    
+                    Image(systemName: "house.fill")
+                    Text("홈")
                 }
             }
         }
