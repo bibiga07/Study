@@ -13,7 +13,13 @@ struct ButtonView: View {
             print("button tapped")
         } label: {
             Text("Click")
+                .font(.system(size: 20, weight: .bold, design: .default))
+                .foregroundColor(.white)
         }
+        .padding()
+        .frame(width: 100, height: 100)
+        .background(.pink)
+        .cornerRadius(20)
     }
 }
 
