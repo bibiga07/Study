@@ -13,13 +13,11 @@ struct ContentView: View {
             ImageView()
             ButtonView()
             TextView()
-            
             HStack {
                 ImageView()
                 ButtonView()
                 TextView()
             }
-            
             ZStack {
                 ImageView()
                 ButtonView()
