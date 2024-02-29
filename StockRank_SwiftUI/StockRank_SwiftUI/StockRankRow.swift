@@ -41,7 +41,7 @@ struct StockRankRow: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 40)
-                .foregroundColor(.gray)
+                .foregroundColor(stock.isFavorite ? .white : .gray)
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
