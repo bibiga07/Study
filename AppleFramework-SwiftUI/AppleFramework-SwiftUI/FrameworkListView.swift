@@ -11,11 +11,7 @@ struct FrameworkListView: View {
     
     @State var list: [AppleFramework] = AppleFramework.list
     
-    let layout: [GridItem] = [
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible())
-    ]
+    let layout: [GridItem] = Array(repeating: .init(.flexible()), count: 3)
     
     var body: some View {
         NavigationView {
@@ -25,7 +21,7 @@ struct FrameworkListView: View {
                         FrameworkCell(framework: item)
                     }
                 }
-                .padding([.top, .leading, .trailing], 16.0)
+                .padding(16.0)
             }
             .navigationTitle("☀️ Apple Framework")
         }
